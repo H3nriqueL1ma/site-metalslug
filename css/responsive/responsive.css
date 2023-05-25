@@ -1,0 +1,279 @@
+/* media queries */
+/*Desktop*/
+@media screen and (max-width: 1440px) and (min-width: 1440px) {
+  body {
+    background-size: 110%;
+  }
+  #back {
+    margin: 3% 0 0 95%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 13.3%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 60.2%;
+  }
+  #information, #section-cards {
+    margin-top: 6%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  body {
+    background-size: 130%;
+  }
+  #back {
+    margin: 3% 0 0 94.5%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 12.5%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 63.5%;
+  }
+  #section-cards #regular {
+    margin-left: 5%;
+  }
+  #information, #section-cards {
+    margin-top: 6%;
+  }
+}
+@media screen and (max-width: 1024px) and (max-height: 800px) {
+  body {
+    background-size: 145%;
+  }
+  #back {
+    margin: 1% 0 0 94%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 11.4%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 59%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 20% 6% 6% 3%;
+    width: 250px;
+    height: 250px;
+  }
+  #information, #section-cards {
+    margin-top: 6%;
+  }
+}
+/*Mobile*/
+@media screen and (max-width: 1024px) and (max-height: 1366px) {
+  body {
+    background-size: 230%;
+  }
+  #back {
+    margin: 1% 0 0 94%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 11.4%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 59%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 20% 6% 6% 3%;
+    width: 250px;
+    height: 250px;
+  }
+  #information, #section-cards {
+    margin-top: 6%;
+  }
+}
+@media screen and (max-width: 834px) {
+  #back {
+    margin: 1% 0 0 93%;
+  }
+  #section-cards #vehicles-regular, #section-cards #vehicles-rebel {
+    background-size: 44%;
+    width: 33%;
+    font-size: 16px;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 6.5%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 55.5%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 25% 6% 6% 3%;
+    width: 210px;
+    height: 210px;
+  }
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-size: 271%;
+  }
+  #back {
+    margin: 1% 0 0 92.5%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    width: 200px;
+    height: 200px;
+  }
+  #information #content {
+    margin-left: 66%;
+  }
+}
+@media screen and (max-width: 768px) {
+  #back {
+    margin: 1% 0 0 91.5%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 6.5%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 54.8%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    width: 190px;
+    height: 190px;
+  }
+}
+@media screen and (max-width: 688px) {
+  body {
+    background-size: 297%;
+  }
+  #back {
+    margin: 1% 0 0 90.5%;
+  }
+  #section-cards #vehicles-regular {
+    background-size: 38%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 55.3%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    width: 170px;
+    height: 170px;
+  }
+  #information #content {
+    margin-left: 65%;
+  }
+}
+@media screen and (max-width: 414px) {
+  body {
+    background-size: 455%;
+  }
+  #back {
+    margin: 1% 0 0 85%;
+  }
+  #section-cards #vehicles-regular, #section-cards #vehicles-rebel {
+    background-size: 35%;
+    background-position: 50% 13%;
+    text-align: center;
+    width: 35%;
+    height: 10%;
+    font-size: 11px;
+  }
+  #section-cards #vehicles-regular {
+    background-size: 32%;
+    margin-left: 3.5%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 53%;
+    background-position: 50% 11%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 40% 6% 6% 0.5%;
+    width: 106px;
+    height: 106px;
+  }
+  #section-cards #cards .title-cards {
+    font-size: 13px;
+  }
+  #information #content {
+    margin-left: 60.5%;
+    width: 35%;
+  }
+  #information #content #title h1 {
+    font-size: 13px;
+  }
+  #information #content #patent p {
+    font-size: 10px;
+  }
+  #information #content #desc p {
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 393px) {
+  body {
+    background-size: 515%;
+  }
+  #back {
+    margin: 1% 0 0 84.5%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 3%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 52%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 40% 6% 6% 0%;
+    width: 100px;
+    height: 100px;
+  }
+  #section-cards #cards .title-cards {
+    font-size: 12px;
+  }
+  #information #content {
+    margin-left: 60%;
+  }
+}
+@media screen and (max-width: 384px) {
+  body {
+    background-size: 530%;
+  }
+  #back {
+    margin: 1% 0 0 84%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 3%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 51%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 40% 6% 6% -1%;
+  }
+  #information #content {
+    margin-left: 59.5%;
+  }
+}
+@media screen and (max-width: 375px) {
+  #section-cards #vehicles-regular {
+    margin-left: 1.2%;
+  }
+  #section-cards #vehicles-rebel {
+    margin-left: 46%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 40% 6% 6% -1%;
+    width: 90px;
+    height: 90px;
+  }
+  #section-cards #cards .title-cards {
+    font-size: 10px;
+  }
+  #information #content {
+    width: 39%;
+    margin-left: 56%;
+  }
+}
+@media screen and (max-width: 360px) {
+  body {
+    background-size: 555%;
+  }
+  #section-cards #vehicles-regular {
+    margin-left: 1.2%;
+  }
+  #section-cards #regular, #section-cards #rebel {
+    margin: 40% 6% 6% -1.5%;
+    width: 50px;
+    height: 50px;
+  }
+}/*# sourceMappingURL=responsive.css.map */

@@ -1,0 +1,182 @@
+$color-regular: rgba(61, 119, 41, 0.8)
+$color-rebel: rgba(139, 2, 2, 0.7)
+$color-gray: rgba(47, 47, 47, 0.9)
+    
+body
+    font-family: "Poppins", sans-serif
+    background: url("../img/background.jpeg") no-repeat 50% 10% / 100%
+
+#back
+    border: 2px solid black
+    background-color: $color-gray
+    color: white
+    cursor: pointer
+    transition: 0.2s
+    border-radius: 5px
+    margin: 0.5% 0 0 95%
+    font-size: 17px
+
+    &:hover
+        transform: scale(1.1)
+
+#section-cards
+    position: absolute
+    width: 65%
+    margin-top: 1%
+    z-index: -1
+
+    #vehicles-regular, #vehicles-rebel
+        font-family: "Poppins", sans-serif
+        font-weight: 500
+        color: white
+        position: absolute
+        font-size: 20px
+        border: 4px solid black
+        border-radius: 20px
+        width: 22%
+        transition: 0.2s
+        cursor: pointer
+        padding: 30px 10px
+        text-align: right
+
+        &:hover
+            transform: scale(1.1)
+
+    #vehicles-regular
+        background: $color-regular url("../img/vehicle-logo-regular.gif") 10% no-repeat
+        margin-left: 15%
+
+    #vehicles-rebel
+        background: $color-rebel url("../img/vehicle-logo-rebel.gif") 6% no-repeat
+        margin-left: 64.5%
+
+    #regular, #rebel
+        border: 4px solid black
+        padding: 40px
+        margin: 15% 6% 6% 8%
+        font-weight: 600
+        color: white
+        cursor: pointer
+        width: 300px
+        height: 300px
+        border-radius: 50%
+        transition: 0.2s
+
+        &:hover
+            transform: scale(1.1)
+
+    #regular
+        background: $color-regular url("../img/png/regular-army.png") no-repeat center / 80%
+
+        &:hover
+            background: $color-regular url(../img/regular-background.gif) no-repeat center / 133%
+    
+    #rebel
+        background: $color-rebel url("../img/png/rebel-army.png") no-repeat center / 80%
+
+        &:hover
+            background: $color-rebel url("../img/rebel-background.gif") no-repeat center / 133%
+        
+
+    #cards::-webkit-scrollbar, #cards::-webkit-scrollbar-thumb, #cards::-webkit-scrollbar-track
+        background-color: transparent
+    
+    #cards
+        display: none
+        width: 100%
+        height: 36rem
+        overflow: scroll
+
+        .title-cards
+            background: rgba(0, 0, 0, 0.6)
+            color: white
+            padding: 5px
+            border-radius: 10px
+            margin-left: 2.6%
+
+        .sub-card
+            width: 100%
+            display: inline-table
+            margin-bottom: 3%
+            padding-left: 5px
+            
+        .card
+            display: inline
+
+            .character-regular, .character-rebel
+                border-radius: 20%
+                max-width: 90px
+                min-width: 90px
+                min-height: 90px
+                max-height: 90px
+                object-fit: contain
+                background-color: rgba(114, 114, 114, 0.5)
+                transition: 0.2s
+                border: 4px solid rgba(0, 0, 0, 0.3)
+                margin: 5px
+                padding: 10px
+                cursor: pointer
+                box-shadow: 0px 7px 29px 0px rgba(0, 0, 0, 0.4)
+
+                &:hover
+                    transform: scale(1.1)
+                    background: $color-regular url("../img/png/regular-army.png") no-repeat 3% 10% / 21%
+
+            .character-rebel
+                &:hover
+                    transform: scale(1.1)
+                    background: $color-rebel url("../img/png/rebel-army.png") no-repeat 3% 9% / 21%
+                    
+#information
+    margin-top: 1%
+    
+    #content
+        position: absolute
+        border-radius: 5px
+        border: 3px solid white
+        background-color: $color-gray
+        width: 30%
+        padding: 30px 10px 10px 10px
+        margin-left: 67%
+        color: white
+        display: flex
+        flex-direction: column
+        align-items: center
+
+        #img
+            width: 35%
+            object-fit: contain
+            max-height: 120px
+
+        #title
+            width: 100%
+            border-bottom: 1px solid white
+            margin-bottom: 5%
+            text-align: center
+
+            h1
+                font-weight: 700
+                margin-bottom: 1%
+                font-size: 14px
+            
+
+        #patent
+            text-align: center
+            margin-top: -7%
+
+            p
+                display: inline-block
+                font-size: 12px
+                font-weight: 500
+
+        #desc
+            text-align: center
+            border-top: 1px solid white
+            margin-top: 5%
+            width: 100%
+
+            p
+                font-weight: 500
+                font-size: 10px
+                margin-top: 3%
+                border: none
